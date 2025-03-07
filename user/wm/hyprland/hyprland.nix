@@ -619,7 +619,7 @@ in
     # doesn't work yet
     image {
       monitor =
-      path = /home/emmet/.dotfiles/user/wm/hyprland/nix-dark.png
+      path = /home/shurikan/.dotfiles/user/wm/hyprland/nix-dark.png
       size = 150 # lesser side if not 1:1 ratio
       rounding = -1 # negative values mean circle
       border_size = 0
@@ -663,7 +663,7 @@ in
 
     label {
       monitor =
-      text = Hello, Emmet
+      text = Hello, Jan
       color = rgb(''+config.lib.stylix.colors.base07-rgb-r+'',''+config.lib.stylix.colors.base07-rgb-g+'', ''+config.lib.stylix.colors.base07-rgb-b+'')
       font_size = 25
       font_family = ''+userSettings.font+''
@@ -815,7 +815,7 @@ in
         "clock#time" = {
           "interval" = 1;
           "format" = "{:%I:%M:%S %p}";
-          "timezone" = "America/Chicago";
+          "timezone" = "Europe/Berlin";
           "tooltip-format" = ''
             <big>{:%Y %B}</big>
             <tt><small>{calendar}</small></tt>'';
@@ -823,7 +823,7 @@ in
         "clock#date" = {
           "interval" = 1;
           "format" = "{:%a %Y-%m-%d}";
-          "timezone" = "America/Chicago";
+          "timezone" = "Europe/Berlin";
           "tooltip-format" = ''
             <big>{:%Y %B}</big>
             <tt><small>{calendar}</small></tt>'';
