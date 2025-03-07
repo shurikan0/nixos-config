@@ -10,6 +10,7 @@
         profile = "personal"; # select a profile defined from my profiles directory
         timezone = "America/Chicago"; # select timezone
         locale = "en_US.UTF-8"; # select locale
+        keyboard_locale = "de_DE.UTF-8";
         bootMode = "uefi"; # uefi or bios
         bootMountPath = "/boot"; # mount path for efi boot partition; only used for uefi boot mode
         grubDevice = ""; # device identifier for grub; only used for legacy (bios) boot mode
