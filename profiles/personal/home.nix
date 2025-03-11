@@ -19,6 +19,8 @@
     zsh
     alacritty
     brave
+    firefox
+    discord
     git
     syncthing
 
