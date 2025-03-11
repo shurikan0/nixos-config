@@ -37,6 +37,8 @@
     brave
     git
     syncthing
+    vscode
+    tmux
 
     # Office
     nextcloud-client
